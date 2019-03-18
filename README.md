@@ -1,4 +1,4 @@
-# Flap.py-Bird
+# Flap.py
 A simple recreation of the classic mobile game in pygame
 
 All sprites and audio were borrowed from https://github.com/sourabhv/FlapPyBird.
