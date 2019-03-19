@@ -30,11 +30,9 @@ for i in range (10):
 	score_sprites.append(pygame.image.load("sprites/" + str(i) + ".png"))
 GO_sprite = pygame.image.load("sprites/gameover.png")
 
-swoosh_sound = pygame.mixer.Sound("audio/swoosh.wav")
 wing_sound = pygame.mixer.Sound("audio/wing.wav")
 point_sound = pygame.mixer.Sound("audio/point.wav")
 hit_sound = pygame.mixer.Sound("audio/hit.wav")
-death_sound = pygame.mixer.Sound("audio/die.wav")
 
 win_width, win_height = background_images[0].get_size()
 win = pygame.display.set_mode((win_width, win_height))
